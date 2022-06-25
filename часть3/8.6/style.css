@@ -1,0 +1,31 @@
+/* 1 */
+#ball {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -20px;
+  margin-top: -20px;
+}
+
+.wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 20px solid rgba(197, 139, 255, 0.206);
+  background-color: rgba(91, 208, 255, 0.387);
+}
+
+.wrapper form {
+  width: 500px;
+  height: 300px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  margin-top: -150px;
+  left: 50%;
+  margin-left: -250px;
+
+  background-color: rgb(240, 248, 255);
+}
